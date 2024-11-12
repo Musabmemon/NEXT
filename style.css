@@ -1,0 +1,126 @@
+
+
+
+
+.main-container{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+    /* border: 5px solid green; */
+    /* height: 100vh; */
+   
+}
+
+.nav-link{
+    color: white;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: bolder;
+    border-bottom: 3px solid transparent;
+
+}
+.nav-link:hover {
+    border-bottom: 3px solid  #3aaf9b;
+    color: #3aaf9b;
+}
+
+.first-container{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+    /* border: 2px solid rgba(128, 0, 128, 0.826); */
+}
+
+.secound-container{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+}
+
+.secound-box{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+}
+.s-box{
+
+}   
+.t-container{
+    /* border: 5px solid red; */
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+}
+
+.th-container{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+}
+
+.four-container{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+}
+
+.f-container{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+}
+
+.five-container{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+}
+
+.six-container{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(1, 1, 16) 35%, rgb(11, 11, 11) 40%, rgb(179, 92, 219) 100%);
+}
+
+.button-div .btn {
+    width: 20em;
+    height: 2em;
+    margin: 0.5em;
+    background: c;
+    color: white;
+    border: none;
+    /* border-radius: 0.625em; */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   button:hover {
+    color: rgb(251, 245, 245);
+   }
+   
+   button:after {
+    content: "";
+    background: purple;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+.first-container1{
+    background: rgb(106,6,237);
+    background: linear-gradient(78deg, rgb(19, 145, 177) 35%, rgba(24, 1, 1, 0.804) 40%, rgb(168, 3, 244) 100%);
+}
+
+
+
+.f-right{
+    /* border: 5px solid green; */
+    /* background: rgb(67, 8, 144);
+    background: linear-gradient(78deg, rgb(5, 158, 205) 35%, rgb(2, 2, 2) 40%, rgb(148, 4, 215) 100%);
+    text-align: center; */
+} 
